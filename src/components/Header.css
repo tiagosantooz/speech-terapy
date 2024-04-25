@@ -1,0 +1,57 @@
+header {
+  /* background-color: #ffffff; */
+  padding: 20px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center; /* Center the navbar horizontally */
+  align-items: center;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.logo-image {
+  width: 100px;
+  height: auto;
+}
+
+.nav-links {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 20px;
+  text-decoration: none;
+  color: #000000;
+  list-style: none; /* Remove bullet points */
+  padding: 0; /* Remove default padding */
+  margin: 10px; /* Remove default margin */
+  
+}
+
+.nav-links li {
+  display: inline;
+  margin-right: 50px;
+ 
+
+}
+
+.nav-links li a {
+  color: black;
+  text-decoration: none;
+  border-width: 1px;
+  /* border-style: solid; */
+  border-radius: 5px ;
+  /* box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1), 10px 10px 10px rgba(0, 0, 0, 0.08); */
+  padding: 7px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0); /* Initial box shadow */
+  transition: box-shadow 0.5s ease; 
+}
+
+.nav-links li a:hover {
+  color: rgb(255, 255, 255);
+  box-shadow: 0 0 40px black;
+  background-color: black;
+  opacity: 60%; 
+}
